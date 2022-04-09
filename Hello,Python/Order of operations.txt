@@ -4,3 +4,27 @@ Order of operations
 The arithmetic we learned in primary school has conventions about the order in which operations are evaluated. Some remember these by a mnemonic such as PEMDAS - Parentheses, Exponents, Multiplication/Division, Addition/Subtraction.
 
 Python follows similar rules about which calculations to perform first. They're mostly pretty intuitive.
+
+hat_height_cm = 25
+my_height_cm = 190
+# How tall am I, in meters, when wearing my hat?
+total_height_meters = hat_height_cm + my_height_cm / 100
+print("Height in meters =", total_height_meters, "?")
+Height in meters = 26.9 ?
+
+Parentheses are useful here. You can add them to force Python to evaluate sub-expressions in whatever order you want.
+
+total_height_meters = (hat_height_cm + my_height_cm) / 100
+print("Height in meters =", total_height_meters)
+Height in meters = 2.15
+
+abs returns the absolute value of an argument:
+print(abs(32))
+print(abs(-32))
+
+In addition to being the names of Python's two main numerical types, int and float can also be called as functions which convert their arguments to the corresponding type:
+
+print(float(10))
+print(int(3.33))
+# They can even be called on strings!
+print(int('807') + 1)

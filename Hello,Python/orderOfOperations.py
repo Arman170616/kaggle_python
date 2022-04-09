@@ -15,3 +15,10 @@ print("Height in Meters= ", total_height_cm, "?")
 total_height_cm = (hat_height_cm + my_height_cm) / 100
 
 print("Height in Meters= ", total_height_cm)
+
+print(abs(32))
+print(abs(-32))
+
+print(float(10))
+print(int(3.33))
+print(int('807') + 1)
