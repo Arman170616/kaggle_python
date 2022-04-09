@@ -1,0 +1,21 @@
+Numbers and arithmetic in Python
+
+
+spam_amount = 0
+
+"Number" is a fine informal name for the kind of thing, but if we wanted to be more technical, we could ask Python how it would describe the type of thing that spam_amount is:
+
+type(spam_amount)
+
+It's an int - short for integer. There's another sort of number we commonly encounter in Python:
+
+type(19.95)
+
+A float is a number with a decimal place - very useful for representing things like weights or proportions.
+
+
+type() is the second built-in function we've seen (after print()), and it's another good one to remember. It's very useful to be able to ask Python "what kind of thing is this?".
+
+The // operator gives us a result that's rounded down to the next integer.
+print(5 // 2) #2
+print(6 // 2) #3

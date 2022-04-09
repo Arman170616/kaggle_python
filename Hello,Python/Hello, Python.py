@@ -1,4 +1,3 @@
-#Python was named for the British comedy troupe Monty Python, so we'll make our first Python program a homage to their skit about Spam).
 
 spam_amount = 0
 #print(spam_amount)
@@ -14,3 +13,12 @@ if spam_amount > 0:
 
 viking_song = "Spam " * spam_amount
 print(viking_song)
+
+#Numbers and arithmetic in Python
+
+print(type(spam_amount))
+
+print(5//2)
+print(6//2)
+
+#Order of operations
