@@ -11,3 +11,7 @@ print("Height in Meters= ", total_height_cm, "?")
 
 #Parentheses are useful here. You can add them to force Python to evaluate sub-expressions in whatever order you want.
 
+
+total_height_cm = (hat_height_cm + my_height_cm) / 100
+
+print("Height in Meters= ", total_height_cm)
